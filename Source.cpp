@@ -11,6 +11,7 @@ int main()
 	cin >> points;
 	cout << "How many points are possible?" << endl;
 	cin >> pointsPossible;
+
 	percent = (points / pointsPossible) * 100;
 	cout << percent << "%" << endl;
 
@@ -18,15 +19,15 @@ int main()
 	{
 		grade = 'A';
 	}
-	else if (percent >= 80 || percent < 90)
+	else if (percent >= 80 && percent < 90 )
 	{
 		grade = 'B';
 	}
-	else if (percent >= 70 || percent < 80)
+	else if (percent >= 70 && percent < 80)
 	{
 		grade = 'C';
 	}
-	else if (percent >= 59 || percent < 70)
+	else if (percent >= 59 && percent < 70)
 	{
 		grade = 'D';
 	}
@@ -56,6 +57,8 @@ int main()
 		cout << "Turn in your badge." << endl;
 		break;
 	}
+
+	cout << 2 * acos(0.0) << endl;
 
 	system("Pause");
 	return 0;
