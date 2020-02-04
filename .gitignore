@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+# Loose files
+*.lastbuildstate
+*.tlog
+*.log
+*.ilk
+*/x64
+*.vs
+x64/Debug/GradeCalculator.pdb
