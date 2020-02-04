@@ -27,11 +27,11 @@ int main()
 	{
 		grade = 'C';
 	}
-	else if (percent >= 59 && percent < 70)
+	else if (percent >= 60 && percent < 70)
 	{
 		grade = 'D';
 	}
-	else if (percent <= 50)
+	else if (percent <= 60)
 	{
 		grade = 'F';
 	}
