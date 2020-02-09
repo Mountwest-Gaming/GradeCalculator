@@ -7,7 +7,7 @@ int main()
 	//Declare variables
 	double points = 0, pointsPossible = 0, percent = 0;
 	char grade = 'A';
-	
+
 	//Ask user for the information we need
 
 	//Point you have.
@@ -28,7 +28,7 @@ int main()
 	{
 		grade = 'A';
 	}
-	else if (percent >= 80 && percent < 90 )
+	else if (percent >= 80 && percent < 90)
 	{
 		grade = 'B';
 	}
